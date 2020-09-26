@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaptureImageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_activity_capture_image"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/ivPreviewImageId"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <Button
+            android:id="@+id/btCaptureButtonId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Capture"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/gradient_capture_image_activity_button"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btCropButtonId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Crop"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/gradient_capture_image_activity_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

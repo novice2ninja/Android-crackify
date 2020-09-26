@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/gradient_sign_up">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etSignUpPhoneNumberId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Phone Number"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_sign_up_edit_text"
+            />
+
+        <Button
+            android:id="@+id/btSignUpButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@android:color/transparent"
+            android:onClick="generateVerificationCode"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

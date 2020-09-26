@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+     <!-- If you want to set an Image -->
+     <!--
+     <ImageView
+         android:id="@+id/ivSplashScreenId"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/splash_screen"/>
+         -->
+
+     <TextView
+         android:id="@+id/tvSplashScreenTextId"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Loading..."
+         android:textColor="@color/dark_green"
+         android:textSize="40sp"/>
+
+</LinearLayout>

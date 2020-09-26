@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VeritfyPhoneAuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_phonenumber_verification_code"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:gravity="center">
+
+        <!--
+        <EditText
+            android:id="@+id/etOTPId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the code"
+            android:textColorHint="@color/white"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:background="@drawable/border_verify_phone_authentication_edit_text"/>
+
+        <Button
+            android:id="@+id/btConfirmOTPid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:inputType="none"/>
+            -->
+
+        <TextView
+            android:id="@+id/tvBreatheInId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breathe in..."
+            android:textColor="@color/red"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/tvBreatheOutId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breathe out..."
+            android:textColor="@color/red"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "77789017157",
+    "firebase_url": "https://crackify-phase1.firebaseio.com",
+    "project_id": "crackify-phase1",
+    "storage_bucket": "crackify-phase1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77789017157:android:d385248831cfc371",
+        "android_client_info": {
+          "package_name": "com.dhiman.crackify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77789017157-oug08124182vv8inokpo3gdfjqlur3u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dhiman.crackify",
+            "certificate_hash": "74914170db49ac1731609d44a0ca0bb5ccea0426"
+          }
+        },
+        {
+          "client_id": "77789017157-3u8lkpsog8jog5jfc0g77b4tn0q1dhl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-zLeMze9Lh16h7JHRXCIjQnZ9I3uG-bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77789017157-3u8lkpsog8jog5jfc0g77b4tn0q1dhl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
